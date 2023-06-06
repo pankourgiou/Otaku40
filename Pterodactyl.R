@@ -6,7 +6,7 @@ OR <- function(x, y) {
 x <- c(0, 0, 1, 0)
 y <- c(0, 1, 0, 1)
 
-# Perform AND operation on test cases
+# Perform OR operation on test cases
 result <- mapply(OR, x, y)
 
 # Display the results
